@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/525fd5b530.js" crossorigin="anonymous"></script>  
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div id="todos">
+      <div class="heading">
+      <h1 class="heading">To-Do List</h1>
+      </div>
+      <div class="todo-input-container">
+      <input class="todo_input" type="text" placeholder="Enter Your Task" />
+      <i class="material-icons" id="add">&#xe146;</i>
+<i class="material-icons" id="edit" >&#xe22b;</i>
+<i class="material-icons" id="delete" onclick="deleteAllElements()" >&#xe872;</i>
+</div>  
+
+
+      <!-- <button onclick="addTask()" id="addToDo">Add Task
+      </button>  -->
+      <ul id="box"></ul>
+      <p id="error"></p>
+      <div class="to-dos" id="toDoContainer"></div>
+    </div>
+    
+    <script src="To-do.js"></script>
+  </body>
+</html>
